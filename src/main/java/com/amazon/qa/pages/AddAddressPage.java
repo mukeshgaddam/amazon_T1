@@ -68,7 +68,7 @@ WebDriver idriver;
 	{
 		AddNewDeliveryAddress.click();
 	}
-	public void addAddress()
+	public void addAnAddress()
 	{
 		AddAnAddress.click();
 	}
@@ -104,4 +104,9 @@ WebDriver idriver;
 	{
 		AddThisAddressBtn.click();
 	}
-}
+	public void phoneNumber()
+	{
+		PhoneNumber.sendKeys("8886445771");
+	}
+		
+	}

@@ -5,6 +5,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
+import com.amazon.qa.pages.LoginPage;
+
 public class BaseClass 
 {
 	public String baseURL = "https://www.amazon.com/";
